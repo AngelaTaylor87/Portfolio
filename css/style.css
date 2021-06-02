@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: lavender
+}
+
+h1 {
+    background-color: gold;
+    margin: 20px;
+    font-size: 200%;
+    font-family: monospace
+}
+
+a:hover {
+    color: purple
+}
+
+header ul li {
+    display: inline-block;
+    text-decoration: black;
+    font-weight: bolder;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    background-color: gold;
+    margin: 10px;
+    font-size: 300%;
+    font-family: monospace;
+}
+
+mark {
+    display: flex;
+    width: 100%;
+    background-image: radial-gradient(black, indigo, gold, indigo, gold);
+}
+
+.About-Me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    flex: 1 1 10%;
+    border-right: 2px solid black;
+    margin-top: 20px;
+}
+
+.Bio {
+    flex: 1 1 70%;
+    padding: 10px;
+    
+}
+
+.Work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+
+.title2 {
+    flex: 1 1 10%;
+    border-right: 2px solid black;
+}
+
+.tasks {
+    flex: 1 1 70%;
+    width: 33.33%;
+    padding: 10px;
+    content: "";
+}
+
+img {
+    display: flex;
+    margin: 20;
+    border: 10px solid purple;
+    
+}
+
+footer ul li {
+    display: inline-block;
+    text-decoration: black;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.title3 {
+    flex: 1 1 10%;
+    border-right: 2px solid black;
+}
+
+.Contact-Me {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.number {
+    flex: 1 1 70%;
+    padding: 10px;
+}
+
+/* For desktop: */
+* {width: auto}
+
+@media only screen and (max-width: 600px) { 
+    body {
+        background-color: blue;}
+
+/* For mobile phones: */
+[class*="float-container"] {
+    width: 100%;
+}
+}
