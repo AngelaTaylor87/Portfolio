@@ -75,10 +75,11 @@ mark {
     content: "";
 }
 
-img {
-    display: flex;
+img:hover {
+    
     margin: 20;
     border: 10px solid purple;
+    color: yellow;
     
 }
 
