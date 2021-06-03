@@ -1,5 +1,6 @@
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: lavender
 }
@@ -35,8 +36,15 @@ h2 {
 
 mark {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     background-image: radial-gradient(black, indigo, gold, indigo, gold);
+}
+
+section img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
 }
 
 .About-Me {
@@ -75,11 +83,13 @@ mark {
     content: "";
 }
 
-img:hover {
+article div img:hover {
+    display: flex;
     
+    flex-grow: 1;
     margin: 20;
     border: 10px solid purple;
-    color: yellow;
+    
     
 }
 
@@ -111,7 +121,7 @@ footer ul li {
 
 @media only screen and (max-width: 600px) { 
     body {
-        background-color: blue;}
+        background-color: darkmagenta;}
 
 /* For mobile phones: */
 [class*="float-container"] {
