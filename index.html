@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -13,40 +14,45 @@
 
     <header>
 
-        <h1 class="Box"> Angela Taylor </h1>
-        <nav id="About me"></nav>
-        <ul>
-            <li>
-                <a href=#About-Me> About Me </a>
-            </li>
-            <li>
-                <a href=#Work> Work </a>
-            </li>
-            <li>
-                <a href=#Contact-Me> Contact Me </a>
-            </li>
-            <li>
-                <a href=#Resume> Resume </a>
-            </li>
-        </ul>
 
-    </header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand"></div>
+                <a class="navbar"> <strong>Angela Taylor </strong></a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a href=#About-Me class="navbar-item"> About Me </a>
+
+                    <a href=#Work class="navbar-item"> Work </a>
+
+                    <a href=#Contact-Me class="navbar-item"> Contact Me </a>
+
+                    <a href=#Resume class="navbar-item"> Resume </a>
+</header>
     <main>
         <mark>
             <h2 class="Box1"> Portfolio </h2>
 
         </mark>
-        <section><img src="./images/ang_img.png" alt="ang_img"></SEction>
+        <section><img src="./images/ang_img.png" alt="ang_img"></section>
         <article class="flex-container">
 
 
-            <div id="About-Me" class="About-Me">
+            <div id="About-Me" class="About">
                 <div class="title">
                     <h3> About Me </h3>
                 </div>
                 <div id="About_Me" class="Bio">
                     <p> I am Angela Taylor, currently i'm enrolled as a part-time student at a Rice
-                        University Coding Boot Camp, from Houston, Tx. Currently a beginner in this field, with hopes to
+                        University Coding Boot Camp, from Houston, Tx. At this time I am a beginner in this field, with hopes to
                         be a highly
                         proficient Web developer by the end of this course.</p>
                     <p>In my spare time I enjoy life! I love to travel, swimming, bike rides, the company of family and
@@ -55,18 +61,17 @@
                 </div>
             </div>
 
-            <div id="Work" class="Work">
-                <div class="title2">
-                    <h3> Work </h3>
+            <div id="Work" class="Apps">
+                <div class="title">
+                    <h4> Work </h4>
 
                 </div>
                 <div class="tasks">
                     <a href="https://yahoo.com"><img
-                        src="https://t3.ftcdn.net/jpg/02/14/53/92/240_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg"
-                        alt="web_dev_img"></a>
-                    <a href="https://www.google.com/"><img
-                        src="https://t4.ftcdn.net/jpg/02/32/82/89/240_F_232828951_bjLqsSnZkMcgbc3XC4IK9yUCx3aXD8He.jpg"
-                        alt="apps_img"></a>
+                            src="https://t3.ftcdn.net/jpg/02/14/53/92/240_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg"
+                            alt="web_dev_img"></a>
+                    <a href="https://angelataylor87.github.io/Brewery-Finder/"><img
+                            src="https://user-images.githubusercontent.com/53482411/124985366-efeeef00-dfff-11eb-97f2-99cd1d3dc36f.png" width="20px" height="30px"></a>
                     <a href="https://www.w3schools.com/"><img
                             src="https://t4.ftcdn.net/jpg/03/98/40/81/240_F_398408157_McCktDBclnNQ1VPPTO03kQF9eZRG80SL.jpg"
                             alt="coding_img"></a>
@@ -80,28 +85,21 @@
             </div>
 
             <footer class="footer">
-                <div id="Contact-Me" class="Contact-Me">
-                    <div class="title3">
+                <div id="Contact-Me" class="Contacts">
+                    <div class="title">
                         <h3> Contact Me </h3>
 
                     </div>
                     <div class="number">
-                        <ul>
-                            <li> <a href="tel:832-368-1982">832-368-1982</a></li>
-                            <li> <a id="Resume" href="https://www.linkedin.com/">Linkedin</a> </li>
-                            <li> <a href="mailto:angiett2005@gmail.com">angiett2005@gmail.com</a> </li>
-                            <li> <a href="https://github.com/">github.com</a> </li>
-                        </ul>
-                    </div>
-                </div>
-
-
-            </footer>
-
-
-        </article>
+                        <div class="buttons">
+                                <a class="button is-primary" href="tel:832-368-1982"><strong>Phone</strong></a>
+                                     <a class="button is-primary" id="Resume" href="https://www.linkedin.com/in/angela-taylor-89464b103/"><strong>Linkedin</strong></a> 
+                                     <a class="button is-primary" href="mailto:angiett2005@gmail.com"><strong>Email</strong></a> 
+                                     <a class="button is-primary" href="https://github.com/AngelaTaylor87"><strong>Github</strong></a> 
+                                </div>
+                        </div>
+</footer>
+</article>
     </main>
-
 </body>
-
 </html>

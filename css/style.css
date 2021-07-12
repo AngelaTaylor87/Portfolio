@@ -1,12 +1,7 @@
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: lavender
-}
+
 
 h1 {
-    background-color: gold;
+    
     margin: 20px;
     font-size: 200%;
     font-family: monospace
@@ -16,11 +11,7 @@ a:hover {
     color: purple
 }
 
-header ul li {
-    display: inline-block;
-    text-decoration: black;
-    font-weight: bolder;
-}
+
 
 main {
     display: flex;
@@ -47,7 +38,7 @@ section img {
     height: 300px;
 }
 
-.About-Me {
+.About {
     display: flex;
     flex-wrap: wrap;
 }
@@ -64,16 +55,11 @@ section img {
     
 }
 
-.Work {
+.Apps {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
     
-}
-
-.title2 {
-    flex: 1 1 10%;
-    border-right: 2px solid black;
 }
 
 .tasks {
@@ -100,12 +86,7 @@ footer ul li {
     margin-left: 20px;
 }
 
-.title3 {
-    flex: 1 1 10%;
-    border-right: 2px solid black;
-}
-
-.Contact-Me {
+.Contacts {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
