@@ -11,26 +11,12 @@ a:hover {
     color: purple
 }
 
-
-
 main {
     display: flex;
     flex-wrap: wrap;
 }
 
-h2 {
-    background-color: gold;
-    margin: 10px;
-    font-size: 300%;
-    font-family: monospace;
-}
 
-mark {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background-image: radial-gradient(black, indigo, gold, indigo, gold);
-}
 
 section img {
     display: flex;
@@ -43,7 +29,7 @@ section img {
     flex-wrap: wrap;
 }
 
-.title {
+article div title {
     flex: 1 1 10%;
     border-right: 2px solid black;
     margin-top: 20px;
