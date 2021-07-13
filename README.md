@@ -16,3 +16,6 @@ This is my professional portfolio.
 • Bulma
 • Github
 • VScode
+
+# Author
+ Sole
