@@ -5,7 +5,7 @@ This is my professional portfolio.
  https://angelataylor87.github.io/Professional-Portfolio/
 
 # Screenshot
-![Professional-Portfolio jpeg](https://user-images.githubusercontent.com/82851741/125519665-2328358c-1056-4e4d-9e56-850ca68feb53.png
+![_Users_angelataylor_projects_Professional-Portfolio_index html (2)](https://user-images.githubusercontent.com/82851741/125519885-b6b96eb3-6a2c-4478-9f1f-bd56a104c5c6.png)
 
 # Desrciption 
  As a devloper I want a place to showcase my skills and be able to standout from other candidates during my career search. 
