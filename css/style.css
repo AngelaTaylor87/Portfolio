@@ -29,7 +29,7 @@ section img {
     flex-wrap: wrap;
 }
 
-article div title {
+article div .title {
     flex: 1 1 10%;
     border-right: 2px solid black;
     margin-top: 20px;
